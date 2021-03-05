@@ -131,14 +131,28 @@ border-radius: 10px;
     }
     100%{
       transform: translateX(0%);
-    }
-    
+    } 
   }
+    .quiz-box .option-container .option: :before{
+  content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    z-index: -1;
+    animation: slideInLeft .5s ease forwards
   .quiz-box .option-container .option after{
   color:#ffffff;
     
   }
-  
+      .quiz-box .option-container .option.wrong{
+       color:#ffffff;
+      }
+      .quiz-box .option-container .option.correct{
+       color:#ffffff;
+      }
 .quiz-box .btn{
   margin:15px 0;
 }

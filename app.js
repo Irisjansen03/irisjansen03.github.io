@@ -41,9 +41,15 @@ for(Let i=0; i<optionLen; i++){
 }
 // create options in html
   for(Let i=0; i<optionLen; i++){
+    // random option
+    const optonIndex = availableOptions[Math.floor(Math.random() * availableOptions.length]
+    // get the position of 'optonIndex' from the availableOptions
+    const index2= availableOptions.indexOf(optonIndex);
+    // remove the'optonIndex' from the availableOptions, so that the option does not repeat
+    availableOptions.splice(index2,1);                       
     const option =  document.createElement("div");
-    option.innerHTML = currentQuestion.options[i];
-    option.id = i;
+    option.innerHTML = currentQuestion.options[optonIndex];
+    option.id = optonIndex;
     option.className = "option"
     optionContainer.appendChild(option)
   }

@@ -56,10 +56,24 @@ for(Let i=0; i<optionLen; i++){
     animationDelay = animationDelay + 0.15;
     option.className = "option"
     optionContainer.appendChild(option)
+    option.setAttribute("onclick","getResult(this)");
   }
   
   questionCounter++
   }
+
+// get the result of current attempt question
+function getResult(element){
+ const id = parseInt(element.id);
+// get the answer by comparing the id of clicked option
+  if(id === currentQuestion.answer){
+    // set the green color to the correct option
+   element.classList.add("correct")
+  }
+  else{
+   console.log("answer is wrong"); 
+  }
+}
 
 function next(){
  if(questionCounter === quiz.lenght){

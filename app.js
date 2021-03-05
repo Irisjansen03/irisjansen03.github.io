@@ -39,7 +39,7 @@ function getNewQuestion(){
 for(Let i=0; i<optionLen; i++){
   availableOptions.push(i)
 }
-  
+  optionContainer.innerHTML = '';
   Let animationDelay = 0,15;
 // create options in html
   for(Let i=0; i<optionLen; i++){
@@ -71,7 +71,8 @@ function getResult(element){
    element.classList.add("correct")
   }
   else{
-   console.log("answer is wrong"); 
+        // set the red color to the incorrect option
+    element.classList.add("wrong")
   }
 }
 

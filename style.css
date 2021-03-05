@@ -101,6 +101,16 @@ border-radius: 10px;
   margin-bottom: 10px;
   cursor: pointer;
   text-transform: capitalize;
+  opacity:0;
+  animation: fadeIn 0.3s ease forwards;
+}
+  @keryframes fadeIn{
+    0%{
+      opacity:0;
+  }
+    100%{
+     opacity: 1; 
+    }
 }
 .quiz-box .btn{
   margin:15px 0;

@@ -39,6 +39,8 @@ function getNewQuestion(){
 for(Let i=0; i<optionLen; i++){
   availableOptions.push(i)
 }
+  
+  Let animationDelay = 0,15;
 // create options in html
   for(Let i=0; i<optionLen; i++){
     // random option
@@ -50,6 +52,8 @@ for(Let i=0; i<optionLen; i++){
     const option =  document.createElement("div");
     option.innerHTML = currentQuestion.options[optonIndex];
     option.id = optonIndex;
+    option.style.animationDelay = 'animationDelay' + 's';
+    animationDelay = animationDelay + 0.15;
     option.className = "option"
     optionContainer.appendChild(option)
   }

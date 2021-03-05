@@ -74,8 +74,17 @@ function getResult(element){
         // set the red color to the incorrect option
     element.classList.add("wrong")
   }
+  
+  unclickableOptions();
 }
 
+//  make all the options unclickable once the user select a option (RESTRICT THE USER TO CHANGE THE OPTION AGAIN)
+function unclickableOptions();{
+  const optionLen = optionContainer.children.length;
+  for(Let i=0 ; i<optionLen; i++){
+    optionContainer.children[i].classList.add("already-answered")
+  }
+}
 function next(){
  if(questionCounter === quiz.lenght){
   console.log("quiz over")

@@ -1,0 +1,29 @@
+Q.1: Uit welk land komt een pizza?
+        Option 0: Italië
+        Option 1: Frankrijk
+        Option 2: Amerika
+        Option 3: Nederland
+
+Q.2: Welke band is hoger bij judo?
+        Option 0: Groene band
+        Option 1: Gele band
+        Option 2: Witte band
+        Option 3: Paarse band
+
+Q.3: Wat is duurder bij de Mc. Donalds?
+        Option 0: Frietjes
+        Option 1: Hamburger
+        Option 2: Cheeseburger
+        Option 3: Frietsaus
+
+Q.4: Hoeveel nullen heeft een miljoen?
+        Option 0: 6
+        Option 1: 9
+
+
+Q.5 Waar zit je trommelvlies?
+        Option 0: Oor
+        Option 1: Oog
+        Option 2: Neus
+
+

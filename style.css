@@ -106,6 +106,9 @@ border-radius: 10px;
   position: relative;
   overflow:hidden;
 }
+  .quiz-box .option-container .option.already-answered{
+   pointer-events: none; 
+  }
   @keryframes fadeIn{
     0%{
       opacity:0;

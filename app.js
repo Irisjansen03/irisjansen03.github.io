@@ -3,6 +3,7 @@
 const questionNumber = document.querySelector(".question-number");
 const questionText = document.querySelector(".question-text");
 const optionContainer = document.querySelector(".option-container");
+const anwersIndicatorContainer = document.querySelector(".answers-indicator");
 
 Let questionCounter = 0;
 Let currentQuestion;
@@ -68,11 +69,15 @@ function getResult(element){
 // get the answer by comparing the id of clicked option
   if(id === currentQuestion.answer){
     // set the green color to the correct option
-   element.classList.add("correct")
+   element.classList.add("correct");
+    // add the indicator to correct mark
+    updateAnswerIndicator("correct");
   }
   else{
         // set the red color to the incorrect option
-    element.classList.add("wrong")
+    element.classList.add("wrong");
+    // add the indicator to wrong mark
+    updateAnswerIndicator("wrong");
   
   // if the answer is incorrect the show the correct option by adding green color the correct option
   const optioLen = optionContainer.children.length;
@@ -86,6 +91,7 @@ function getResult(element){
   unclickableOptions();
 }
 
+
 //  make all the options unclickable once the user select a option (RESTRICT THE USER TO CHANGE THE OPTION AGAIN)
 function unclickableOptions();{
   const optionLen = optionContainer.children.length;
@@ -93,6 +99,18 @@ function unclickableOptions();{
     optionContainer.children[i].classList.add("already-answered")
   }
 }
+
+function   answerIndicatior(){
+      const totalQuestion = quiz.length;
+  for(Let i=0; i<totalQuestion; i++){
+   const indicator = document.createElement ("div");
+    answerIndicatorContainer.appendChild(indicator);
+  }
+}
+function updateAnswerIndicator(markType);{
+  answerIndicatorContainer.children[questionCounter-1].classlist.add(markType)
+}
+
 function next(){
  if(questionCounter === quiz.lenght){
   console.log("quiz over")
@@ -107,4 +125,6 @@ window.onload = function(){
  setAvailableQuestions();
   // second we will call getNewQuestion(); function
   getNewQuestion();
+  // to create indicator of answers
+  answerIndicatior();
 }

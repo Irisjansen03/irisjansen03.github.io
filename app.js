@@ -159,9 +159,25 @@ function tryAgainQuiz (){
   // show the quizBox
   quizBox.classList.remove("hide");
   resetQuiz();
+  startQuiz();
 }
 
-window.onload = function(){
+function goToHome(){
+ // hide result Box 
+resultBox.classList.add("hide");
+ // show home box
+  homeBox.classList.remove("hide");
+   resetQuiz();
+}
+
+// #### STARTING POING ####
+
+function startQuiz(){
+  
+  // hide home box
+  homeBox.classList.add("hide");
+  // show quiz Box
+  quizBox.classList.remove("hide");
   // first we will set all questions in availableQuestions Array
  setAvailableQuestions();
   // second we will call getNewQuestion(); function

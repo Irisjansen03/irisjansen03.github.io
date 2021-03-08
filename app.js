@@ -51,9 +51,9 @@ for(Let i=0; i<optionLen; i++){
   for(Let i=0; i<optionLen; i++){
     // random option
     const optonIndex = availableOptions[Math.floor(Math.random() * availableOptions.length]
-    // get the position of 'optonIndex' from the availableOptions
+    // get the position of 'optonIndex' from the availableOptions Array
     const index2= availableOptions.indexOf(optonIndex);
-    // remove the'optonIndex' from the availableOptions, so that the option does not repeat
+    // remove the'optonIndex' from the availableOptions Array , so that the option does not repeat
     availableOptions.splice(index2,1);                       
     const option =  document.createElement("div");
     option.innerHTML = currentQuestion.options[optonIndex];
@@ -78,7 +78,6 @@ function getResult(element){
     // add the indicator to correct mark
     updateAnswerIndicator("correct");
     correctAnswers++;
-    console.log("correct"+correctAnswers)
   }
   else{
         // set the red color to the incorrect option
@@ -121,7 +120,6 @@ function updateAnswerIndicator(markType);{
 
 function next(){
  if(questionCounter === quiz.lenght){
-  console.log("quiz over")
   quizOver();
  }
   else{ 
@@ -130,7 +128,7 @@ function next(){
 }
 
 function quizOver(){
-  // hide quiz quizBox
+  // hide quiz Box
   quizBox.classList.add("hide");
  // show result Box 
   resultBox.classlist.remove("hide");

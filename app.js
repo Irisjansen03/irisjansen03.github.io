@@ -184,4 +184,11 @@ function startQuiz(){
   getNewQuestion();
   // to create indicator of answers
   answerIndicatior();
+
 }
+
+
+window.onload = function (){
+ homeBox.querySelector(".total-question").innerHTML = quiz.length; 
+}
+

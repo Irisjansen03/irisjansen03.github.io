@@ -23,9 +23,9 @@ const quiz = [
     answer:2
   },
   {
-    q:'WWat is duurder bij de Mc. Donalds?',
+    q:'Wat is duurder bij de Mc. Donalds?',
     options:['Frietjes','Hamburger','Cheeseburger','Frietsaus'],
     answer:3
   },
-
+  
   ]

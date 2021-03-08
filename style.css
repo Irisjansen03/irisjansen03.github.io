@@ -72,7 +72,6 @@ border-radius: 10px;
 .quiz-box .answers-indicator{
   width: 100%;
   float: left;
-  
 }
 .quiz-box .question-number{
   font-size: 18px;
@@ -81,8 +80,7 @@ border-radius: 10px;
   border-bottom:1px solid #cccccc;
   padding-bottom: 10px;
   Line-height: 25px
-}
-
+  }
 .quiz-box .question-text{
   font-size: 22px;
   color:#000000;
@@ -148,7 +146,6 @@ border-radius: 10px;
     animation: slideInLeft .5s ease forwards
   .quiz-box .option-container .option after{
   color:#ffffff;
-    
   }
       .quiz-box .option-container .option.wrong{
        color:#ffffff;
@@ -168,9 +165,23 @@ border-radius: 10px;
   display: inline-block;
   background-color: #cccccc
   border-radius: 50%;
-  margin-right: 3px;
+  margin-right: 3px;78/&
   margin-top: 15px;
 }
+      .quiz-box .answers-indicator div.correct{
+      backround-color: green;
+        background-image: url("../img/correct.png");
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+       .quiz-box .answers-indicator div.wrong{
+        backround-color: red;
+        background-image: url("../img/wrong.png");
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
 
 .result-box{
   text-aligen: center:

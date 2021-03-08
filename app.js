@@ -147,6 +147,20 @@ function quizResult(){
   resultBox.querySelector(".total-score").innerHTML = correctAnswers +" / " + quiz.length;
 }
 
+function resetQuiz(){
+  questionCounter = 0;
+  correctAnswers = 0;
+  attempt = 0;
+}
+
+function tryAgainQuiz (){
+ // hide the resultBox 
+  resultBox.classList.add("hide");
+  // show the quizBox
+  quizBox.classList.remove("hide");
+  resetQuiz();
+}
+
 window.onload = function(){
   // first we will set all questions in availableQuestions Array
  setAvailableQuestions();

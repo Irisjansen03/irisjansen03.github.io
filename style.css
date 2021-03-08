@@ -223,3 +223,13 @@ animation: fadeInRight 1s ease;
 .result-box .btn{
   margin-right: 20px;
 }
+
+      
+      @media(max-width: 767px){
+    .result-box .btn{
+      magin-bottom: 15px;
+        }
+        body{
+         padding: 15px; 
+        }
+      }

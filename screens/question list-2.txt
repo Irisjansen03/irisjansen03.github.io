@@ -1,41 +1,39 @@
 
  q-6
- How many squares are there in the following figure?
- 35
- 30
- 40
- 50
- ans - 40
+ Wat is de kleur van de jurk van Assepoester?
+ Groen
+ Blauw
+ Geel
+ Rood
+ ans - Blauw
 
  q-7
- Count the triangles in picture below.
- 7
- 9
- 12
- 13
- ans - 13
+ Schrijf je menu'tje of menuutje?
+ Menu'tje
+ Menuutje
+ ans - Menuutje
 
  q-8
- Windows, macOS, and Linux are examples of ________.?
- web browsers
- mobile devices
- filmy heroines
- operating systems
- ans - operating systems
+ Wat is de hoofdstad van Spanje?
+ Madrid
+ Barcelona
+ Servillia
+ Marbella
+ ans - Madrid
 
  q-9
- What does "GUI" stand for?
- Global user index
- Graphical user interface
- golu use iphone
- ans - Graphical user interface
+ Hoeveel kleuren bevat de regenboog?
+ 7
+ 8
+ 9
+ ans - 7
 
  q-10
- mark zuckerberg is the owner of  ?
- facebook
- google
- linux
- linkedin
- ans - facebook
+ Welke kleur krijg je als je geel en rood met elkaar mengt?
+ Oranje
+ Blauw
+ Groen
+ Roze
+ ans - Oranje
 
 

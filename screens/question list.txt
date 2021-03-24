@@ -17,7 +17,6 @@ Q.3: Wat is duurder bij de McDonald's?
        option 0 : Cheeseburger
        option 1 : Hamburger
 
-
 Q.4: Hoeveel nullen heeft een miljoen?
       option 0 : 9
       option 1 : 3

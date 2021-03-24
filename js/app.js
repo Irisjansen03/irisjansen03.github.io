@@ -8,7 +8,7 @@ const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
 
-Let questionCounter = 0;
+Let questionCounter = 5;
 Let currentQuestion;
 Let availableQuestions = [];
 Let availableOptions = [];

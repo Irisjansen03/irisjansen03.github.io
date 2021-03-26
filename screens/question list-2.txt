@@ -8,10 +8,10 @@
  ans - Blauw
 
  q-7
- Schrijf je menu'tje of menuutje?
- Menu'tje
- Menuutje
- ans - Menuutje
+ Schrijf je portomonnee of portemonnee?
+ Portomonnee
+ Portemonnee
+ ans - Portemonnee
 
  q-8
  Wat is de hoofdstad van Spanje?

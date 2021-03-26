@@ -30,7 +30,7 @@
   {
     q:'Wat is de kleur van de jurk van Assepoester?',
     options:['Groen','Blauw','Geel','Rood'],
-    answer:0,
+    answer:1,
   },
   {
     q:'Schrijf je portomonnee of portemonnee?',

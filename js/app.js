@@ -26,7 +26,7 @@
  // set question number and question and options
  function getNewQuestion(){
     // set question number 
-    questionNumber.innerHTML = "Vraag " + (questionCounter + 1) + "van de " + questionLimit;
+    questionNumber.innerHTML = "Vraag " + (questionCounter + 1) + " van de " + questionLimit;
 
     // set question text
     // get random question

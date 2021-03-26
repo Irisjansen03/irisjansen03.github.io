@@ -3,55 +3,53 @@
  // Array of Objects
  const quiz = [
   {
-  	q:'Which month comes right before june ?',
-  	options:['may','september','july','august'],
+  	q:'Uit welk land komt een pizza?',
+  	options:['Italië','Frankrijk','Amerika','Nederland'],
   	answer:0
   },
   {
-  	q:'What color is a banana?',
-  	options:['red','yellow','white','blue'],
+  	q:'Welke band is hoger bij judo?',
+  	options:['Witte band','Bruine band','Groene band','Gele band'],
   	answer:1
   },
   {
-  	q:'3 + 4 = 7 ?',
-  	options:['true','false'],
+  	q:'Wat is duurder bij de Mc.Donalds',
+  	options:['Cheeseburger','Hamburger'],
   	answer:0
   },
   {
-  	q:'What time of day do we have breakfast?',
-  	options:['In the afternoon','In the evening','In the morning'],
+  	q:'Hoeveel nullen heeft een miljoen?',
+  	options:['9','3','6'],
   	answer:2
   },
   {
-  	q:'What is 22 + 6?',
-  	options:['99','56','16','28'],
-  	answer:3
+  	q:'Zit je trommelvlies in je oor, oog of neus?',
+  	options:['Oor','Oog','Neus'],
+  	answer:0
   },
   {
-    q:'How many squares are there in the following figure?',
-    options:['35','30','40','50'],
-    answer:2,
-    img:'img/square.jpg'
+    q:'Wat is de kleur van de jurk van Assepoester?',
+    options:['Groen','Blauw','Geel','Rood'],
+    answer:0,
   },
   {
-    q:'Count the triangles in picture below.',
-    options:['7','9','12','13'],
-    answer:3,
-    img:'img/triangle.jpg'
-  },
-  {
-    q:'Windows, macOS, and Linux are examples of ________.?',
-    options:['web browsers','mobile devices','filmy heroines','operating systems'],
-    answer:3,
-  },
-  {
-    q:'What does "GUI" stand for?',
-    options:['Global user index','Graphical user interface','golu use iphone'],
+    q:'Schrijf je portomonnee of portemonnee?',
+    options:['Portomonnee','Portemonnee'],
     answer:1,
   },
   {
-    q:'Mark Zuckerberg is the owner of  ?',
-    options:['facebook','google','linux','linkedin'],
+    q:'Wat is de hoofdstad van Spanje?',
+    options:['Madrid','Barcelona','Sevilla','Marbella'],
+    answer:0,
+  },
+  {
+    q:'Hoeveel kleuren bevat de regenboog?',
+    options:['7','8','9'],
+    answer:0,
+  },
+  {
+    q:'Welke kleur krijg je als je geel en rood met elkaar mengt?',
+    options:['Oranje','Blauw','Groen','Roze'],
     answer:0,
   }
  ]

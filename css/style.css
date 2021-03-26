@@ -139,7 +139,7 @@ body{
  top:0;
  height: 100%;
  width: 100%;
- background-color: green;
+ background-color: blue;
  z-index: -1;
  animation: slideInLeft .5s ease forwards
 }

@@ -87,7 +87,7 @@ body{
 }
 .quiz-box .question-number{
 	font-size: 18px;
-	color:#009688;
+	color:#a29ae3;
 	font-weight: 600;
 	border-bottom:1px solid #cccccc;
 	padding-bottom: 10px;
@@ -139,7 +139,7 @@ body{
  top:0;
  height: 100%;
  width: 100%;
- background-color: blue;
+ background-color: green;
  z-index: -1;
  animation: slideInLeft .5s ease forwards
 }

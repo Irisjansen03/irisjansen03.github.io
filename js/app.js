@@ -175,7 +175,10 @@
  	homeBox.classList.remove("hide");
  	resetQuiz();
  }
- 
+
+<br>
+	<a href="https://6356.itch.io/astrojump">Website</a>
+	</br>
 
  // #### STARTING POINT ####
 

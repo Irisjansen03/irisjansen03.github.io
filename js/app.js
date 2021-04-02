@@ -176,6 +176,8 @@
  	resetQuiz();
  }
  
+<a href="https://dspierson.magister.net/magister/#/vandaag">school magister</a>
+
  // #### STARTING POINT ####
 
  function startQuiz(){
